@@ -10,7 +10,7 @@ FROM nvidia/cuda:11.3.1-devel-ubuntu20.04
 # ==================================================================
 # tools
 # ------------------------------------------------------------------
-RUN apt-get update && apt-get install -y git wget vi vim nano
+RUN apt-get update && apt-get install -y git wget vim nano
 
 # ==================================================================
 # python
